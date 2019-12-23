@@ -1,8 +1,11 @@
 package me.sofiworker.rxjava2;
 
 import io.reactivex.Observable;
-import me.sofiworker.rxjava2.bean.BaseData;
+import me.sofiworker.rxjava2.base.BaseData;
 import me.sofiworker.rxjava2.bean.PageBean;
+import retrofit2.http.GET;
+import retrofit2.http.POST;
+import retrofit2.http.Path;
 
 /**
  * @author sofiworker
@@ -16,5 +19,6 @@ public interface Api {
      * 获取主页文章
      * @return Observable<BaseData<PageBean>>
      */
-    Observable<BaseData<PageBean>> getHomeArticleList();
+    @GET("article/list/{pageNum}/json")
+    Observable<BaseData<PageBean>> getHomeArticleList(@Path("pageNum") int pageNum);
 }

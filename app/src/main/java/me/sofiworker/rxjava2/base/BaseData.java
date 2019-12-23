@@ -1,4 +1,4 @@
-package me.sofiworker.rxjava2.bean;
+package me.sofiworker.rxjava2.base;
 
 /**
  * @author sofiworker

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">RxJava2</string>
+
+    <string name="nothing_here">这里什么都没有哦~</string>
+    <string name="no_network">好像与世界断开了连接~</string>
+    <string name="has_error">好像发生了什么不得了的错误~</string>
+    <string name="is_loading">正在努力加载中…</string>
+
+    <string name="title">标题</string>
+    <string name="author">作者/分享人：</string>
+    <string name="category">分类：</string>
+    <string name="time">时间：</string>
 </resources>
